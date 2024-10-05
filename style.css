@@ -1,0 +1,61 @@
+.task {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px; /* Rounded corners for card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for card-like appearance */
+    cursor: move;
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .task:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover for depth */
+  }
+  
+  .task h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; /* Title styling */
+  }
+  
+  .task p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 0;
+  }
+  
+  .pending-column {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 90%;
+    margin-right: 20px;
+    background-color: transparent;
+    float: left;
+  }
+  .inprogress-column {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 90%;
+    margin-right: 20px;
+    background-color: lightblue;
+    float: left;
+  }
+  .completed-column {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 90%;
+    margin-right: 20px;
+    background-color: rgb(153 102 153);
+    float: left;
+  }
+  .board {
+    display: flex;
+    gap: 20px;
+    height: 95lvh;
+    background-color: darkblue;
+  }
